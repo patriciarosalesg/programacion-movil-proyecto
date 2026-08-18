@@ -408,7 +408,7 @@ class _OrdersScreenState extends State<OrdersScreen> {
     final double margenHorizontal =
         anchoPantalla > 600 ? 60 : 20;
 
-    // 5.4 - Filtrado de órdenes
+    // Filtrado de órdenes
     final String busqueda =
         textoBusqueda.trim().toLowerCase();
 
@@ -436,7 +436,7 @@ class _OrdersScreenState extends State<OrdersScreen> {
 
       body: Column(
         children: [
-          // 5.4 - Barra de búsqueda
+          // Barra de búsqueda
           Padding(
             padding: EdgeInsets.fromLTRB(
               margenHorizontal,
@@ -514,7 +514,7 @@ class _OrdersScreenState extends State<OrdersScreen> {
               ),
             )
           else
-            // LISTVIEW.BUILDER
+            
             Expanded(
               child: ListView.builder(
                 padding: EdgeInsets.symmetric(

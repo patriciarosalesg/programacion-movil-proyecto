@@ -157,7 +157,7 @@ class _DashboardScreenState extends State<DashboardScreen> {
                       },
                     ),
 
-                    // Opción 2 - Servicios.
+                    // Servicios.
                     ListTile(
                       leading: const Icon(
                         Icons.miscellaneous_services,
@@ -174,7 +174,7 @@ class _DashboardScreenState extends State<DashboardScreen> {
                       },
                     ),
 
-                    // Opción 3 - ExpansionTile.
+                    // ExpansionTile.
                     ExpansionTile(
                       leading: const Icon(
                         Icons.category,
@@ -318,7 +318,7 @@ class _DashboardScreenState extends State<DashboardScreen> {
         ),
       ),
 
-      // BARRA SUPERIOR.
+      // Barra Superior.
       appBar: AppBar(
         backgroundColor: const Color(0xFF1565C0),
         foregroundColor: Colors.white,
@@ -333,13 +333,12 @@ class _DashboardScreenState extends State<DashboardScreen> {
         centerTitle: true,
       ),
 
-      // INDEXEDSTACK.
       body: IndexedStack(
         index: _indiceActual,
         children: _secciones,
       ),
 
-      // BOTTOM NAVIGATION BAR.
+      // Bottom Navigator Bar.
       bottomNavigationBar: BottomNavigationBar(
         currentIndex: _indiceActual,
         onTap: _cambiarSeccion,

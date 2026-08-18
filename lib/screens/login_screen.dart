@@ -70,7 +70,7 @@ class _LoginScreenState extends State<LoginScreen> {
               children: [
                 const SizedBox(height: 25),
 
-                // Icono temporal del logo
+                // Icono del logo
                 Container(
                   padding: const EdgeInsets.all(18),
                   decoration: BoxDecoration(

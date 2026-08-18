@@ -58,7 +58,7 @@ class _SoporteTecnicoState extends State<SoporteTecnico> {
 
               const SizedBox(height: 30),
 
-              // EJEMPLO 1: SELECCIÓN DE ELEMENTOS
+              // Seleccion de elementos.
               const Text(
                 'Tipo de soporte',
                 style: TextStyle(

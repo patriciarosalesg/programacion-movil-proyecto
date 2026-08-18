@@ -19,14 +19,19 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'My Support Technos Design',
+      // Nombre de la aplicación.
 
+      title: 'My Support Technos Design',
+      
+      // Tema general de la aplicación.
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-
+      
+       // Pantalla inicial de la aplicación.
       initialRoute: '/home',
 
+      // Rutas nombradas de la aplicación.
       routes: {
         '/home': (context) => const HomeScreen(),
         '/login': (context) => const LoginScreen(),
